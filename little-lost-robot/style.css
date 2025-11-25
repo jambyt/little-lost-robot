@@ -1,0 +1,65 @@
+/* basic body setup */
+body {
+  background: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  font-family: system-ui, sans-serif;
+}
+
+/* main game box */
+#game-container {
+  width: 600px;
+  padding: 20px;
+  border: 2px solid white;
+  background: #111;
+  text-align: center;
+}
+
+/* title */
+h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+/* character row */
+#character-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 16px 0;
+}
+
+/* images */
+#character, #robot {
+  width: 120px;
+  height: auto;
+}
+
+/* story text */
+#story-text {
+  min-height: 150px;
+  font-size: 22px;
+  margin-bottom: 15px;
+  white-space: pre-line;
+}
+
+/* choice buttons */
+#choices button {
+  background: black;
+  border: 2px solid white;
+  color: white;
+  font-size: 20px;
+  padding: 8px 15px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+/* hover effect */
+#choices button:hover {
+  background: white;
+  color: black;
+}
+
